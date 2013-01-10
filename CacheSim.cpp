@@ -24,9 +24,9 @@ int main(void) {
     tagLength = 20 - y - setNumLog;
     setQueue = new list<unsigned int> [setNum];
 
-    cout << "blockNum: " << blockNum << endl;
-    cout << "setNum: " << setNum << endl;
-    cout << "tagLength: " << tagLength << endl;
+    cout << blockNum << endl;
+    cout << setNum << endl;
+    cout << tagLength << endl;
 
     for(unsigned int i = 0; i < m; i++) {
         unsigned int mask = (setNum - 1) << y;
